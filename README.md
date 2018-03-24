@@ -18,7 +18,7 @@ Version 1.4
 ### Installation
 
 ```
-/usr/local/cpanel/3rdparty/bin/git clone https://github.com/Prajithp/letsencrypt-cpanel.git
+/usr/local/cpanel/3rdparty/bin/git clone https://github.com/costnando/letsencrypt-cpanel.git
 cd letsencrypt-cpanel
 ./install.sh
 ```
