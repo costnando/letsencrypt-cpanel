@@ -1,40 +1,40 @@
           <!-- Bootstrap -->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<style>
-		#icon-{
-			font-size: 0px;
-			vertical-align: top;
-		}
-		#icon- img{
-			display: inline-block;
-			vertical-align: top;
-			height: 30px;
-			margin-top: 3px;
-			width: 30px;
-		}
-		.whm-58-heading {
-			font-family: 'Open Sans',sans-serif;
-			text-align: left;
-			text-transform: uppercase;
-			font-weight: normal;
-			background-color: rgba(41,58,74,.95);
-			color: #fff;
-			font-size: 14px;
-			margin-bottom: 0;
-			border-radius: 4px 4px 0 0;
-			border-bottom: none;
-		}
-		
-		.whm-58-subheading {
-			border-radius: 0 0 4px 4px;
-			border-top: none;
-		}
-		
-		.whm-58-subheading > .panel-heading {
-			line-height: 48px;
-		}
-	</style>
-	<div class="container">
+  <style>
+    #icon-{
+      font-size: 0px;
+      vertical-align: top;
+    }
+    #icon- img{
+      display: inline-block;
+      vertical-align: top;
+      height: 30px;
+      margin-top: 3px;
+      width: 30px;
+    }
+    .whm-58-heading {
+      font-family: 'Open Sans',sans-serif;
+      text-align: left;
+      text-transform: uppercase;
+      font-weight: normal;
+      background-color: rgba(41,58,74,.95);
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 0;
+      border-radius: 4px 4px 0 0;
+      border-bottom: none;
+    }
+    
+    .whm-58-subheading {
+      border-radius: 0 0 4px 4px;
+      border-top: none;
+    }
+    
+    .whm-58-subheading > .panel-heading {
+      line-height: 48px;
+    }
+  </style>
+  <div class="container">
     <div class="content">
       <legend class="well text-center text-warning whm-58-heading"> Manage Let's Encrypt SSL Certificate</legend>
       [% IF message %]
@@ -138,12 +138,8 @@
   </div>
   <div class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
-      <p class="navbar-text pull-left">&copy; 2016 - App Developed By Prajith
-           <a href="http://ndimensionz.com" target="_blank" >Ndimensionz</a>
-      </p>
-
-      <a href="http://ndimensionz.com" target="_blank" class="navbar-btn btn-danger btn pull-right">
-      <span class="glyphicon glyphicon-star"></span> Ndimensionz</a>
+      <p class="navbar-text pull-left">&copy; Copyright <a href="https://letsencrypt.org" target="_blank">Let's Encrypt</a> 2018</p>
+      
     </div>
   </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -180,8 +176,8 @@
   </script>
   [% IF (theme == 'paper_lantern') %]
     <script type="text/javascript">
-  	$("#sidebar_home").prop("href", "[% base_url %]index.html");
-	$("#sidebar_user_manager").prop("href", "[% base_url %]user_manager/index.html");
+    $("#sidebar_home").prop("href", "[% base_url %]index.html");
+  $("#sidebar_user_manager").prop("href", "[% base_url %]user_manager/index.html");
         $("#lnkHeaderHome").prop("href", "[% base_url %]index.html");
         $("#lnkQuickHome").prop("href", "[% base_url %]index.html");
         $("#lnkQuickDomains").prop("href", "[% base_url %]addon/index.html");
